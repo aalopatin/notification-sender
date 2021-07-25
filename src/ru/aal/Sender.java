@@ -22,6 +22,9 @@ public class Sender {
                 smsLink.execute();
                 emailApplication.execute();
                 smsNotification.execute();
+                break;
+            default:
+                System.out.println("The mode is not supported.");
         }
 
     }
